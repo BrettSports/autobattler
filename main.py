@@ -1,5 +1,12 @@
 # Our project
 import random
+# from characters.character_classes import Tank, Ranged, Balanced
+
+#TODO Are we removing your character function at the top or integrate?
+#TODO Because if removing, then we won't have to worry about differences in varaible names like hit_points and hp
+#TODO Character select function that can retrieve stats from characters_classes.py
+#TODO AI character selector function
+#TODO GUI
 
 class Character:
     def __init__(self, name, hit_points, movement_speed, attack_damage, attack_range, initiative):
